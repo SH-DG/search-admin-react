@@ -20,7 +20,7 @@ const useStyles = makeStyles(() => ({
   rightItemsBox: {},
 }));
 
-function Header() {
+export const Header = () => {
   const classes = useStyles();
 
   return (
@@ -40,5 +40,3 @@ function Header() {
     </header>
   );
 }
-
-export default Header;
