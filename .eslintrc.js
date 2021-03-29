@@ -19,5 +19,6 @@ module.exports = {
     ],
     'react/jsx-one-expression-per-line': 'off',
     'react/jsx-curly-newline': 'off',
+    'import/prefer-default-export': 'off',
   },
 };
